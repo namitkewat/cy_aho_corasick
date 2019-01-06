@@ -4,11 +4,6 @@ from libcpp cimport bool
 from libcpp.string cimport string
 from libcpp.vector cimport vector
 
-from cpython.ref cimport Py_INCREF
-from cpython.long cimport PyLong_FromLong
-from cpython.tuple cimport PyTuple_New, PyTuple_SET_ITEM
-from cpython.list cimport PyList_Append, PyList_GET_ITEM, PyList_GET_SIZE
-
 
 cdef extern from "<string>" namespace "std" nogil:
     cdef cppclass basic_string[T]:
