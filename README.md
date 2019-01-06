@@ -1,7 +1,7 @@
 # cy_aho_corasick
-Cython binding on C++ aho_corasick libarary
+Cython bindings on C++ aho_corasick library
 
-It leverages Aho-corasick implementatino of the https://github.com/cjgdev/aho_corasick 
+It leverages Aho-corasick implementation of the https://github.com/cjgdev/aho_corasick 
 
 ## Build
 Run following command to build in-place:
